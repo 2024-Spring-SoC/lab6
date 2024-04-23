@@ -1,3 +1,6 @@
+set current_dir [exec tcsh -c {pwd}]
+set ::env(LAB_PATH) "${current_dir}/../"
+
 # ---------------------------------------
 # Step 1: Specify libraries
 # ---------------------------------------
