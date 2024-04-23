@@ -1,6 +1,5 @@
 if {![info exists ::env(LAB_PATH)]} {
-    set current_dir [exec tcsh -c {pwd}]
-    set ::env(LAB_PATH) "${current_dir}/../"
+    set ::env(LAB_PATH) "[pwd]/../"
 }
 
 # ---------------------------------------
